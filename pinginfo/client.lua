@@ -1,5 +1,6 @@
 local currentPing = 0
 
+# WARNA TEXT
 function DrawTextOnScreen(text, x, y)
     SetTextFont(4)
     SetTextScale(0, 0.4)
@@ -27,6 +28,7 @@ Citizen.CreateThread(function()
     end
 end)
 
+# POSISI TEXT
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(5)
