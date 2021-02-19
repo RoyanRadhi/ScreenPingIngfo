@@ -1,4 +1,4 @@
-# mb_watermarkPing
+# ScreenPing
 A Fivem Script
 
 Display your ping with green color below 60
